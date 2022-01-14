@@ -486,7 +486,7 @@ input[id="check"] {
 /* Contact Section */
 /* Footer Section */
 
-@media screen and (max-width: 925px) {
+@media screen and (max-width: 1000px) {
     .header.sticky {
         background-color: var(--white-bg-mob);
     }
@@ -556,7 +556,7 @@ input[id="check"] {
     }
     
 }
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1000px) {
     .header.sticky .container label span{
         top: 5px;
     }
