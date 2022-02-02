@@ -1,0 +1,413 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
+
+    <!-- Css Files -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Blog Post</title>
+
+    <style>
+        :root {
+            --white-bg-mob: #fff;
+        }
+        .header {
+            background-color: var(--white-bg-mob);
+        }
+        .header .nav > li > a {
+            color: var(--black-text);
+            padding: 20px 10px;
+        }
+        .header .logo img {
+            width: 40%;
+            margin-top: 5px;
+        }
+        .header.sticky .logo img.black,
+        .header .logo img.black,
+        .dark .header .logo img.white {
+            display: block;
+        }
+        .header.sticky .logo img.white,
+        .header .logo img.white,
+        .dark .header .logo img.black {
+            display: none;
+        }
+    </style>
+</head>
+<body>
+    
+    <input type="checkbox" name="" id="check">
+    <!-- Header -->
+    <div class="header">
+        <div class="container">
+            <div class="logo">
+                <img src="images/logo-alt.webp" class="white" alt="Logo Image" draggable="false">
+                <img src="images/logo.webp" class="black" alt="Logo Image" draggable="false">
+            </div>
+            
+            <nav>
+                <label for="check">
+                    <span class="fas fa-times" id="times"></span>
+                    <span class="fas fa-bars" id="bars"></span>
+                </label>
+                <ul class="nav">
+                    <li> <a href="index.html#home">Home</a></li>
+                    <li> <a href="index.html#about">About</a></li>
+                    <li> <a href="index.html#portfolio">Portfolio</a></li>
+                    <li> <a href="index.html#offer">Services</a></li>
+                    <li> <a href="index.html#prices">Prices</a></li>
+                    <li> <a href="index.html#team">Team</a></li>
+                    <li class="dropdown">
+                        <a href="index.html#blog" class="active">Blog <i class="fas fa-sort-down"></i></a>
+                        <ul class="dropdown-meun">
+                            <li> <a href="#">blog post</a></li>
+                        </ul>
+                    </li>
+                    <li> <a href="index.html#contact">Contact</a></li>
+
+                    <li class="or-1">
+                        <div class="toggle">
+                            <input type="checkbox" id="toggleBtn" >
+                            <label for="toggleBtn">
+                                <img src="images/sunny.png" alt="sun icon" class="icon sun" />
+                                <img src="images/moon.png" alt="moon icon" class="icon moon" />
+                            </label>
+                        </div>
+                    </li>
+
+                </ul>
+        </nav>
+            <div class="clear"></div>
+        </div>
+    </div>
+
+    <!-- Page Title -->
+    <section class="page-title">
+        <div class="page-content">
+            <div class="container">
+                <h1>blog page</h1>
+                <ul class="breadcrumb">
+                    <li><a href="index.html#home">home</a></li>
+                    <li><a href="index.html#blog">blog</a></li>
+                    <li>single post</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Content Section -->
+    <div class="content">
+        <div class="container">
+            <section class="left">
+                <div class="page-img">
+                    <img src="images/blog/blog1.webp" alt="blog">
+                </div>
+                <ul class="blog-list">
+                    <li>
+                        <i class="fa fa-user"></i>
+                        john doe
+                    </li>
+                    <li>
+                        <i class="far fa-clock"></i>                            
+                        13 oct
+                    </li>
+                    <li>
+                        <i class="fas fa-comments"></i>
+                        75
+                    </li>
+                </ul>
+                <h3 class="blog-title">Molestie at elementum eu facilisls sed odio</h3>
+                <p class="blog-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus eum nihil et recusandae doloribus totam voluptates, sint harum ipsam. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Suscipit placeat quisquam doloremque quos ipsum dolorem maxime dolore, corrupti assumenda facere? Fugit ipsam fuga repellendus ex earum ratione quidem, similique ab.</p>
+                <div class="tags">
+                    <h3>tags:</h3>
+                    <ul class="tag-items">
+                        <li><a href="#">
+                            <i class="fas fa-tag"></i>
+                            web
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fas fa-tag"></i>
+                            design
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fas fa-tag"></i>
+                            marketing
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fas fa-tag"></i>
+                            development
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fas fa-tag"></i>
+                            branding
+                        </a></li>
+                        <li><a href="#">
+                            <i class="fas fa-tag"></i>
+                            photography
+                        </a></li>
+                    </ul>
+                </div>
+
+                <div class="info-user">
+                    <div class="img-user">
+                        <img src="images/team/team1.webp" alt="perso1">
+                    </div>
+
+                    <div class="data-user">
+                        <div class="contact-user">
+                            <h2>joe doe</h2>
+                            <ul class="icons">
+                                <li><a href="#"> <i class="fab fa-facebook-f"></i> </a></li>
+                                <li><a href="#"> <i class="fab fa-twitter"></i> </a></li>
+                                <li><a href="#"> <i class="fab fa-instagram"></i> </a></li>
+                                <li><a href="#"> <i class="fab fa-linkedin-in"></i> </a></li>
+                            </ul>
+                        </div>
+                        <p class="prev">
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maxime nam necessitatibus dolorum fugit laborum cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum expedita voluptates id ducimus nihil aliquam.
+                        </p>
+                    </div>
+                </div>
+
+                <div class="comments">
+                    <div class="section-header">
+                        <h2 class="section-title">(13) Comments</h2>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="comment-item">
+                        <div class="img-comment">
+                            <img src="images/team/team1.webp" alt="perso">
+                        </div>
+    
+                        <div class="comment">
+                            <div class="contact-user">
+                                <div class="left-data">
+                                    <h3>joe doe</h3>
+                                    <span>2 min ago</span>
+                                </div>
+                                <a href="#">reply <i class="fas fa-reply"></i> </a>
+                            </div>
+                            <p class="prev">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet debitis impedit, sed iste nemo deserunt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment-item">
+                        <div class="img-comment">
+                            <img src="images/team/team2.webp" alt="perso">
+                        </div>
+    
+                        <div class="comment">
+                            <div class="contact-user">
+                                <div class="left-data">
+                                    <h3>joe doe</h3>
+                                    <span>2 min ago</span>
+                                </div>
+                                <a href="#">reply <i class="fas fa-reply"></i> </a>
+                            </div>
+                            <p class="prev">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet debitis impedit, sed iste nemo deserunt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment-item">
+                        <div class="img-comment">
+                            <img src="images/team/team3.webp" alt="perso">
+                        </div>
+    
+                        <div class="comment">
+                            <div class="contact-user">
+                                <div class="left-data">
+                                    <h3>joe doe</h3>
+                                    <span>2 min ago</span>
+                                </div>
+                                <a href="#">reply <i class="fas fa-reply"></i> </a>
+                            </div>
+                            <p class="prev">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet debitis impedit, sed iste nemo deserunt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment-item">
+                        <div class="img-comment">
+                            <img src="images/team/team2.webp" alt="perso">
+                        </div>
+    
+                        <div class="comment">
+                            <div class="contact-user">
+                                <div class="left-data">
+                                    <h3>joe doe</h3>
+                                    <span>2 min ago</span>
+                                </div>
+                                <a href="#">reply <i class="fas fa-reply"></i> </a>
+                            </div>
+                            <p class="prev">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet debitis impedit, sed iste nemo deserunt.
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="comment-item">
+                        <div class="img-comment">
+                            <img src="images/team/team3.webp" alt="perso">
+                        </div>
+    
+                        <div class="comment">
+                            <div class="contact-user">
+                                <div class="left-data">
+                                    <h3>joe doe</h3>
+                                    <span>2 min ago</span>
+                                </div>
+                                <a href="#">reply <i class="fas fa-reply"></i> </a>
+                            </div>
+                            <p class="prev">
+                                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Amet debitis impedit, sed iste nemo deserunt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reply">
+                    <div class="section-header">
+                        <h2 class="section-title">leave a reply</h2>
+                        <span class="line"></span>
+                    </div>
+
+                    <form>
+                        <input type="text" placeholder="Name">
+                        <input type="email" placeholder="Emali">
+                        <textarea rows="4" placeholder="Add Your Comment..."></textarea>
+                        <input type="submit" value="Submit">
+                    </form>
+                </div>
+
+            </section>
+    
+            <aside class="right">
+                <div class="search">
+                    <input type="search" placeholder="Search...">
+                    <i class="fa fa-search"></i>
+                </div>
+
+                <div class="category">
+                    <div class="section-header">
+                        <h2 class="section-title">category</h2>
+                        <span class="line"></span>
+                    </div>
+                    <ul class="category-list">
+                        <li>
+                            <span class="category-title">web design</span>
+                            <span class="category-num">(7)</span>
+                        </li>
+
+                        <li>
+                            <span class="category-title">marketing</span>
+                            <span class="category-num">(142)</span>
+                        </li>
+
+                        <li>
+                            <span class="category-title">web development</span>
+                            <span class="category-num">(74)</span>
+                        </li>
+
+                        <li>
+                            <span class="category-title">branding</span>
+                            <span class="category-num">(60)</span>
+                        </li>
+
+                        <li>
+                            <span class="category-title">photography</span>
+                            <span class="category-num">(5)</span>
+                        </li>
+
+                    </ul>
+                </div>
+
+                <div class="posts">
+                    <div class="section-header">
+                        <h2 class="section-title">populare posts</h2>
+                        <span class="line"></span>
+                    </div>
+
+                    <div class="posts-items">
+                        <div class="post-item">
+                            <div class="post-img">
+                                <img src="images/blog/blog1.webp" alt="blog">
+                            </div>
+                            <div class="post-text">
+                                <h4>blog title goes here</h4>
+                                <span>oct 14 2017</span>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <div class="post-img">
+                                <img src="images/blog/blog2.webp" alt="blog">
+                            </div>
+                            <div class="post-text">
+                                <h4>blog title goes here</h4>
+                                <span>oct 14 2017</span>
+                            </div>
+                        </div>
+
+                        <div class="post-item">
+                            <div class="post-img">
+                                <img src="images/blog/blog3.webp" alt="blog">
+                            </div>
+                            <div class="post-text">
+                                <h4>blog title goes here</h4>
+                                <span>oct 14 2017</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="tags-soq">
+                    <div class="section-header">
+                        <h2 class="section-title">tags</h2>
+                        <span class="line"></span>
+                    </div>
+
+                    <ul class="tag-list">
+                        <li><a href="#"> web </a></li>
+                        <li><a href="#"> design </a></li>
+                        <li><a href="#"> graphic </a></li>
+                        <li><a href="#"> marketing </a></li>
+                        <li><a href="#"> development </a></li>
+                        <li><a href="#"> branding </a></li>
+                        <li><a href="#"> photography </a></li>
+                    </ul>
+                </div>
+            </aside>
+        </div>
+    </div>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <img src="images/logo-alt.webp" alt="logo">
+        <ul class="footer-links">
+            <li><a href="#" class="hover-opacity"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-snapchat-ghost"></i></a></li>
+        </ul>
+        <p>copyright &copy; 2017 . all right reserved by <span>colorlib</span></p>
+        <p>coding by <span>mohamed madgy</span></p>
+    </footer>
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>
