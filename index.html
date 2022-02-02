@@ -2,11 +2,9 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Font -->
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
-
-    <!-- Responsive -->
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Css Files -->
     <link rel="stylesheet" href="css/all.min.css">
@@ -34,14 +32,15 @@
                     <li> <a href="#about">About</a></li>
                     <li> <a href="#portfolio">Portfolio</a></li>
                     <li> <a href="#offer">Services</a></li>
-                    <li> <a href="#">Prices</a></li>
+                    <li> <a href="#prices">Prices</a></li>
+                    <li> <a href="#team">Team</a></li>
                     <li class="dropdown">
-                        <a href="#">Blog <i class="fas fa-sort-down"></i></a>
+                        <a href="#blog">Blog <i class="fas fa-sort-down"></i></a>
                         <ul class="dropdown-meun">
-                            <li> <a href="#">blog post</a></li>
+                            <li> <a href="page.html">blog post</a></li>
                         </ul>
                     </li>
-                    <li> <a href="#">Contact</a></li>
+                    <li> <a href="#contact">Contact</a></li>
 
                     <li class="or-1">
                         <div class="toggle">
@@ -233,6 +232,362 @@
 
         </div>
     </section>
+
+    <!-- Services Section -->
+    <section class="services pd-y">
+        <div class="container">
+
+            <div class="services-content">
+                <div class="services-item">
+                    <div class="section-header">
+                        <h2 class="section-title">why choose us</h2>
+                        <span class="line"></span>
+                    </div>
+                    <p class="services-item-desc">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Totam accusantium asperiores, tempora aliquid provident assumenda unde natus reiciendis enim sunt.
+                    </p>
+                    <ul class="services-list">
+                        <li> <i class="fa fa-check fa-fw"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis!</li>
+                        <li> <i class="fa fa-check fa-fw"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis!</li>
+                        <li> <i class="fa fa-check fa-fw"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis!</li>
+                        <li> <i class="fa fa-check fa-fw"></i> Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis!</li>
+                    </ul>
+                </div>
+            
+                <div class="services-item">
+                    <div class="services-item-img">
+                        <img src="images/about/about1.webp" alt="imagg">
+                    </div>
+                    <ul class="services-boliets">
+                        <li></li>
+                        <li class="active"></li>
+                        <li></li>
+                    </ul>
+                </div>
+                <div class="clear"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Number Section -->
+    <section class="numbers">
+        <div class="overlay">
+            <div class="container">
+                <div class="numbers-items">
+                    <div class="number-item">
+                        <i class="icon fa fa-users fa-2x"></i>
+                        <h3 class="number-item-title">451</h3>
+                        <span class="number-item-text">happy clinet</span>
+                    </div>
+                    <div class="number-item">
+                        <i class="icon fa fa-users fa-2x"></i>
+                        <h3 class="number-item-title">12</h3>
+                        <span class="number-item-text">happy clinet</span>
+                    </div>
+                    <div class="number-item">
+                        <i class="icon fa fa-users fa-2x"></i>
+                        <h3 class="number-item-title">152K</h3>
+                        <span class="number-item-text">happy clinet</span>
+                    </div>
+                    <div class="number-item">
+                        <i class="icon fa fa-file fa-2x"></i>
+                        <h3 class="number-item-title">45</h3>
+                        <span class="number-item-text">happy clinet</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Prices Section -->
+    <section class="prices pd-y" id="prices">
+        <!-- Section header -->
+        <div class="section-header">
+            <h2 class="section-title">pricing table</h2>
+            <span class="line"></span>
+        </div>
+
+        <div class="container">
+            <div class="prices-plan">
+
+                <div class="pricing-item tb-effect">
+                    <span class="pricing-item-text">basck plan</span>
+                    <div class="pricing-item-price">
+                        <h3 class="dolor">$9</h3>
+                        <span class="month">/ month</span>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>1Gb Dask Space</li>
+                        <li>500 E-mail Account</li>
+                        <li>24/24 Support</li>
+                    </ul>
+                    <button class="pricing-item-btn">purchases now</button>
+                </div>
+
+                <div class="pricing-item tb-effect">
+                    <span class="pricing-item-text">slver plan</span>
+                    <div class="pricing-item-price">
+                        <h3 class="dolor">$19</h3>
+                        <span class="month">/ month</span>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>1Gb Dask Space</li>
+                        <li>500 E-mail Account</li>
+                        <li>24/24 Support</li>
+                    </ul>
+                    <button class="pricing-item-btn">purchases now</button>
+                </div>
+
+                <div class="pricing-item tb-effect">
+                    <span class="pricing-item-text">gold plan</span>
+                    <div class="pricing-item-price">
+                        <h3 class="dolor">$39</h3>
+                        <span class="month">/ month</span>
+                    </div>
+                    <ul class="pricing-list">
+                        <li>1Gb Dask Space</li>
+                        <li>500 E-mail Account</li>
+                        <li>24/24 Support</li>
+                    </ul>
+                    <button class="pricing-item-btn">purchases now</button>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Testimonial Section -->
+    <section class="testimonial">
+        <div class="overlay">
+            <div class="testimonial-content">
+                <div class="container">
+                    <div class="testimonial-item">
+                        <div class="testimonial-top">
+                            <img src="images/Testimonial/perso1.webp" alt="persoi">
+                            <h3>johe doe</h3>
+                            <span>web designer</span>
+                        </div>
+                        <div class="testimonial-desc">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, inventore rem error dicta hic nihil sapiente assumenda repellat tempore accusamus doloribus aut optio magnam dolorum.</p>
+                        </div>
+                    </div>
+
+                    <div class="testimonial-item">
+                        <div class="testimonial-top">
+                            <img src="images/Testimonial/perso2.webp" alt="perso1">
+                            <h3>johe doe</h3>
+                            <span>web designer</span>
+                        </div>
+                        <div class="testimonial-desc">
+                            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptates, inventore rem error dicta hic nihil sapiente assumenda repellat tempore accusamus doloribus aut optio magnam dolorum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section class="team pd-y" id="team">
+
+        <div class="section-header">
+            <h2 class="section-title">our team</h2>
+            <span class="line"></span>
+        </div>
+
+        <div class="container">
+            <div class="team-content">
+                <div class="team-item tb-effect">
+                    <div class="team-img">
+                        <img src="images/team/team1.webp" alt="team perso1">
+                        <div class="team-overlay">
+                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="#"> <i class="fab fa-twitter"></i> </a>
+                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-info-title">john doe</h3>
+                        <span class="team-info-text">web designer </span>
+                    </div>
+                </div>
+
+                <div class="team-item tb-effect">
+                    <div class="team-img">
+                        <img src="images/team/team2.webp" alt="team perso2">
+                        <div class="team-overlay">
+                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="#"> <i class="fab fa-twitter"></i> </a>
+                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-info-title">john doe</h3>
+                        <span class="team-info-text">web designer </span>
+                    </div>
+                </div>
+
+                <div class="team-item tb-effect">
+                    <div class="team-img">
+                        <img src="images/team/team3.webp" alt="team perso3">
+                        <div class="team-overlay">
+                            <a href="#"> <i class="fab fa-facebook-f"></i> </a>
+                            <a href="#"> <i class="fab fa-twitter"></i> </a>
+                            <a href="#"> <i class="fab fa-linkedin-in"></i> </a>
+                        </div>
+                    </div>
+                    <div class="team-info">
+                        <h3 class="team-info-title">john doe</h3>
+                        <span class="team-info-text">web designer </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Blog Section -->
+    <section class="blog pd-y" id="blog">
+
+        <div class="section-header">
+            <h2 class="section-title">recent news</h2>
+            <span class="line"></span>
+        </div>
+
+        <div class="container">
+            <div class="blog-content">
+                <div class="blog-item">
+                    <div class="blog-item-img">
+                        <img src="images/blog/blog1.webp" alt="blog1">
+                    </div>
+                    <div class="blog-info">
+                        <ul class="blog-list">
+                            <li>
+                                <i class="fa fa-user"></i>
+                                john doe
+                            </li>
+                            <li>
+                                <i class="far fa-clock"></i>                            
+                                13 oct
+                            </li>
+                            <li>
+                                <i class="fas fa-comments"></i>
+                                75
+                            </li>
+                        </ul>
+                        <h3 class="blog-title">Molestie at elementum eu facilisls sed odio</h3>
+                        <p class="blog-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus eum nihil et recusandae doloribus totam voluptates, sint harum ipsam.</p>
+                        <a href="page.html" class="blog-link">read more</a>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-img">
+                        <img src="images/blog/blog2.webp" alt="blog2">
+                    </div>
+                    <div class="blog-info">
+                        <ul class="blog-list">
+                            <li>
+                                <i class="fa fa-user"></i>
+                                john doe
+                            </li>
+                            <li>
+                                <i class="far fa-clock"></i>                            
+                                13 oct
+                            </li>
+                            <li>
+                                <i class="fas fa-comments"></i>
+                                75
+                            </li>
+                        </ul>
+                        <h3 class="blog-title">Molestie at elementum eu facilisls sed odio</h3>
+                        <p class="blog-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus eum nihil et recusandae doloribus totam voluptates, sint harum ipsam.</p>
+                        <a href="page.html" class="blog-link">read more</a>
+                    </div>
+                </div>
+
+                <div class="blog-item">
+                    <div class="blog-item-img">
+                        <img src="images/blog/blog3.webp" alt="blog3">
+                    </div>
+                    <div class="blog-info">
+                        <ul class="blog-list">
+                            <li>
+                                <i class="fa fa-user"></i>
+                                john doe
+                            </li>
+                            <li>
+                                <i class="far fa-clock"></i>                            
+                                13 oct
+                            </li>
+                            <li>
+                                <i class="fas fa-comments"></i>
+                                75
+                            </li>
+                        </ul>
+                        <h3 class="blog-title">Molestie at elementum eu facilisls sed odio</h3>
+                        <p class="blog-desc">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Atque temporibus eum nihil et recusandae doloribus totam voluptates, sint harum ipsam.</p>
+                        <a href="page.html" class="blog-link">read more</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact" id="contact">
+        <div class="section-header">
+            <h2 class="section-title">get in touch</h2>
+            <span class="line"></span>
+        </div>
+        <div class="container">
+            <ul class="contact-icon">
+                <li>
+                    <i class="fas fa-phone-alt"></i>
+                    <span class="title">phone</span>
+                    <span class="desc">012-345-6789</span>
+                </li>
+                <li>
+                    <i class="fas fa-envelope"></i>
+                    <span class="title">email</span>
+                    <span class="desc">moamed018@gmail.com</span>
+                </li>
+                <li>
+                    <i class="fas fa-map-marker-alt"></i>
+                    <span class="title">address</span>
+                    <span class="desc">1111 NY</span>
+                </li>
+            </ul>
+
+            <form>
+                <input type="text" placeholder="Name">
+                <input type="email" placeholder="Emali">
+                <input type="text" placeholder="Subject">
+                <textarea placeholder="Message" rows="3"></textarea>
+                <input type="submit" value="Send message" class="hover-opacity">
+            </form>
+        </div>
+    
+
+    </section>
+
+
+    <!-- Footer Section -->
+    <footer>
+        <img src="images/logo-alt.webp" alt="logo">
+        <ul class="footer-links">
+            <li><a href="#" class="hover-opacity"><i class="fab fa-facebook-f"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-twitter"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-youtube"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-instagram"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-linkedin-in"></i></a></li>
+            <li><a href="#" class="hover-opacity"><i class="fab fa-snapchat-ghost"></i></a></li>
+        </ul>
+        <p>copyright &copy; 2017 . all right reserved by <span>colorlib</span></p>
+        <p>coding by <span>mohamed madgy</span></p>
+    </footer>
+
 
 
     <script src="main.js"></script>
